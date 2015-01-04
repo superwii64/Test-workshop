@@ -26,3 +26,33 @@ img {
         -webkit-transform: rotate(-360deg);
     };
 }
+
+@-moz-keyframes wait {
+    0% {
+        -moz-transform: rotate(0);
+    }
+
+    100% {
+        -moz-transform: rotate(-360deg);
+    };
+}
+
+@-o-keyframes wait {
+    0% {
+        -o-transform: rotate(0);
+    }
+
+    100% {
+        -o-transform: rotate(-360deg);
+    };
+}
+
+@keyframes wait {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    };
+}
