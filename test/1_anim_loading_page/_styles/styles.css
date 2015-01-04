@@ -13,6 +13,8 @@ img {
     
     -moz-animation: wait 2s infinite linear;
     -webkit-animation: wait 2s infinite linear;
+    -o-animation: wait 2s infinite linear;
+    animation: wait 2s infinite linear;
 }
 
 @-webkit-keyframes wait {
