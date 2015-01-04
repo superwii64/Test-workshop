@@ -1,0 +1,23 @@
+.container {
+    margin: 0 auto;
+}
+            
+select {
+    display:block;
+    overflow-x:hidden;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    background: #EEE;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    outline:none;
+                
+    <!-- appearance est suposé faire disparaitre la fléche mais ne fonctionne pas -->
+    -webkit-appearance:none; 
+    -moz-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+}
